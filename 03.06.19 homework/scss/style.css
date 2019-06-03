@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030; }
+  #header .logo a {
+    text-decoration: none;
+    color: #fed136;
+    cursor: pointer;
+    font-size: 2em;
+    font-family: 'Kaushan Script', cursive; }
+  #header ul.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none; }
+  #header ul.menu li {
+    display: inline-block;
+    padding: 15px; }
+    #header ul.menu li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #FFF; }
+      #header ul.menu li a:hover {
+        color: #fed136; }
+
+.header_content {
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 900px; }
+  .header_content .intro_text {
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 200px; }
+    .header_content .intro_text .intro {
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    .header_content .intro_text .heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Roboto', sans-serif; }
+    .header_content .intro_text a {
+      text-decoration: none;
+      color: #fff;
+      background: #fed136;
+      text-transform: uppercase;
+      padding: 20px;
+      border-radius: 10px;
+      width: 150px; }
+
+.margin-8 {
+  margin-top: 8%; }
+
+#main_content {
+  text-align: center; }
+  #main_content .title h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px; }
+  #main_content .title p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px; }
+  #main_content span i.text-primary {
+    color: #fed136 !important; }
+
+/*# sourceMappingURL=style.css.map */

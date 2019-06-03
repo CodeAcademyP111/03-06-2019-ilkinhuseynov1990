@@ -1,0 +1,129 @@
+@import"particial/variable";
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1030;
+   
+    .logo{
+
+        a{
+            text-decoration: none;
+            color:$logo_text_color;
+            cursor: pointer;
+            font-size: 2em;
+            font-family: 'Kaushan Script', cursive; 
+        }
+    }
+
+    ul.menu{
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+    }
+
+    ul.menu{
+        li{
+            display: inline-block;
+            padding: 15px;
+
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $menu_color;
+
+                &:hover{
+                    color:$menu_color_hover;
+                }
+            }
+        }
+    }
+}
+
+
+.header_content{
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+    height:900px;
+
+    .intro_text{
+        text-align: center;
+        padding-top: 300px;
+        padding-bottom: 200px;
+
+        .intro{
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        margin-bottom: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+    .heading{
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a{
+        text-decoration: none;
+        color:#fff;
+        background: $logo_text_color;
+        text-transform:uppercase;
+        padding: 20px;
+        border-radius:$border-radius;
+        width: 150px;
+    }
+
+    }
+
+}
+
+
+.margin-8{
+    margin-top:8%;
+}
+
+
+#main_content{
+
+    text-align: center;
+    
+    .title{
+        h1{
+            font-size: 40px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: 75px;
+        }
+    }
+
+    span{
+
+        i.text-primary{
+          color: #fed136!important;
+        }
+    }
+}
+
+
